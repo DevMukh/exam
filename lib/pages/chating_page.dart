@@ -12,7 +12,7 @@ import 'package:video_player/video_player.dart';
 
 import '../services/chat/auth_services.dart';
 import '../services/chat/chat_services.dart';
-
+//chating service 
 class ChatingPage extends StatefulWidget {
   final String receiverEmail;
   final String receiverId;
