@@ -1,5 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-
+//here we fetch the grades from firebase
 Future<void> addUserGrades(String phoneNumber, Map<String, dynamic> grades) async {
   try {
     CollectionReference gradesCollection = FirebaseFirestore.instance.collection('examGrades').doc().snapshots() as CollectionReference<Object?>;
