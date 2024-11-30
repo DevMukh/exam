@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-//themes for the whole app 
+//themes for the whole app color
 class AppColors {
   final Color backgroundColors = const Color(0xFFFFFFFF);
   final Color textColor = const Color(0xFF2A2426);
